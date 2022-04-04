@@ -16,7 +16,7 @@ pipeline {
                 }
             }
         }
-        stage('Deliver stage') {
+        stage('Nimesha Branch') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
             }
